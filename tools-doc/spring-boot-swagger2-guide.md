@@ -11,7 +11,7 @@
 |                 | notes | 字符串 |  |
 | | | | `@ApiOperation`(value = "xxx", notes = "xxx") |
 | `@ApiImplicitParams` | {} | `@ApiImplicitParam`数组 | 可用在方法头上.参数的描述容器 |
-| | | | `@ApiImplicitParams`({`@ApiImplicitParam1`,`@ApiImplicitParam2`,...}) |
+| | | | `@ApiImplicitParams`({ `@ApiImplicitParam1`,`@ApiImplicitParam2`,... }) |
 | `@ApiImplicitParam` | name         | 字符串 与参数命名对应  | 可用在`@ApiImplicitParams`里 |
 |                     | value        | 字符串 | 参数中文描述 |
 |                     | required     | 布尔值 | true/false |
@@ -22,7 +22,7 @@
 |                     | defaultValue | 字符串 | 在api测试中默认值 |
 | | | | 用例参见项目中的设置 |
 | `@ApiResponses` | {} | `@ApiResponse`数组 | 可用在方法头上.参数的描述容器 |
-| | | | `@ApiResponses`({`@ApiResponse1`,`@ApiResponse2`,...}) |
+| | | | `@ApiResponses`({ `@ApiResponse1`,`@ApiResponse2`,... }) |
 | `@ApiResponse`      | code         | 整形   | 可用在`@ApiResponses`里 |
 |                     | message      | 字符串 | 错误描述 |
 | | | | `@ApiResponse`(code = 200, message = "Successful") |
